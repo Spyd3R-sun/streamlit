@@ -18,7 +18,7 @@ st.set_page_config(
 # Load the dataset
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r"C:\Users\Aaron Tan\OneDrive\文档\Aaron(DSTB)\avo.csv")
+    data = pd.read_csv(r"C:\Users\Aaron Tan\Downloads\Aaron(DSTB)\avo.csv")
     return data
 
 data = load_data()
